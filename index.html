@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IAO Professional Services - Professional Accountants</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="main-nav">
+        <div class="container">
+            <div class="logo">
+                <h1>IAO Professional S.</h1>
+            </div>
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#calculator">Calculator</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button id="theme-toggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                </button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="particles-container" id="particles-js"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="animate-float">Your Numbers. <span class="highlight">Our Passion.</span></h1>
+                <p>Innovative financial solutions for modern businesses. We don't just count numbers, we make numbers count.</p>
+                <div class="hero-buttons">
+                    <a href="#services" class="btn btn-primary">Our Services</a>
+                    <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image animate-float">
+                <div class="shape-1"></div>
+                <div class="shape-2"></div>
+                <div class="shape-3"></div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <h3>5+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat">
+                        <h3>300+</h3>
+                        <p>Happy Clients</p>
+                    </div>
+                    <div class="stat">
+                        <h3>$40M+</h3>
+                        <p>Tax Savings</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our <span class="highlight">Services</span></h2>
+                <p>Comprehensive financial expertise for your business needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-design="diagonal,top-right">
+                    <div class="card-design"></div>
+                    <div class="card-content">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>Financial Planning</h3>
+                        <p>Strategic guidance for long-term financial success and stability</p>
+                        <ul>
+                            <li>Investment Strategies</li>
+                            <li>Retirement Planning</li>
+                            <li>Wealth Management</li>
+                            <li>Risk Assessment</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service-card" data-design="polygon,bottom-left">
+                    <div class="card-design"></div>
+                    <div class="card-content">
+                        <i class="fas fa-file-invoice-dollar"></i>
+                        <h3>Tax Optimization</h3>
+                        <p>Minimize tax liability while ensuring complete compliance</p>
+                        <ul>
+                            <li>Tax Return Preparation</li>
+                            <li>Tax Planning Strategies</li>
+                            <li>IRS Representation</li>
+                            <li>International Taxation</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service-card" data-design="rounded-corner,top-left">
+                    <div class="card-design"></div>
+                    <div class="card-content">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>Business Accounting</h3>
+                        <p>Comprehensive accounting solutions for businesses of all sizes</p>
+                        <ul>
+                            <li>Bookkeeping Services</li>
+                            <li>Financial Statements</li>
+                            <li>Payroll Processing</li>
+                            <li>Cash Flow Management</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service-card" data-design="semicircle,bottom-right">
+                    <div class="card-design"></div>
+                    <div class="card-content">
+                        <i class="fas fa-handshake"></i>
+                        <h3>Business Advisory</h3>
+                        <p>Expert guidance to help your business reach its full potential</p>
+                        <ul>
+                            <li>Business Formation</li>
+                            <li>Strategic Planning</li>
+                            <li>Performance Analysis</li>
+                            <li>Succession Planning</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service-card" data-design="horizontal-strip,bottom">
+                    <div class="card-design"></div>
+                    <div class="card-content">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Audit & Assurance</h3>
+                        <p>Thorough financial reviews to ensure compliance and accuracy</p>
+                        <ul>
+                            <li>Internal Audits</li>
+                            <li>Financial Reviews</li>
+                            <li>Compliance Audits</li>
+                            <li>Fraud Investigation</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service-card" data-design="diagonal,top-right">
+                    <div class="card-design"></div>
+                    <div class="card-content">
+                        <i class="fas fa-chart-pie"></i>
+                        <h3>CFO Services</h3>
+                        <p>Executive-level financial leadership without the full-time cost</p>
+                        <ul>
+                            <li>Financial Strategy</li>
+                            <li>Budget Development</li>
+                            <li>Financial Reporting</li>
+                            <li>Growth Management</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <div class="section-header">
+                        <h2>About <span class="highlight">IAO Professional Services</span></h2>
+                        <p>Your trusted financial partner since 2018</p>
+                    </div>
+                    <p class="about-text">At IAO Professional Services, we combine traditional accounting expertise with innovative technology to deliver exceptional financial services. Our team of certified professionals brings years of experience across industries.</p>
+                    <p class="about-text">We believe in building long-term relationships with our clients, understanding their unique needs, and providing personalized solutions that drive growth and success.</p>
+                    <div class="core-values">
+                        <div class="value">
+                            <div class="value-icon">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <div class="value-content">
+                                <h4>Excellence</h4>
+                                <p>We strive for excellence in every client interaction and financial solution.</p>
+                            </div>
+                        </div>
+                        <div class="value">
+                            <div class="value-icon">
+                                <i class="fas fa-lock"></i>
+                            </div>
+                            <div class="value-content">
+                                <h4>Integrity</h4>
+                                <p>We operate with honesty, transparency, and the highest ethical standards.</p>
+                            </div>
+                        </div>
+                        <div class="value">
+                            <div class="value-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <div class="value-content">
+                                <h4>Innovation</h4>
+                                <p>We embrace new technologies and approaches to solve financial challenges.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-container">
+                        <div class="image-shape"></div>
+                        <div class="pattern-dots"></div>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-card">
+                            <h3>96%</h3>
+                            <p>Client Retention</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3>25+</h3>
+                            <p>Certified CPAs</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3>4,500+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Calculator Section -->
+    <section id="calculator" class="calculator">
+        <div class="container">
+            <div class="section-header">
+                <h2>Tax Savings <span class="highlight">Calculator</span></h2>
+                <p>Estimate your potential tax savings with IAO Professional Services</p>
+            </div>
+            <div class="calculator-container">
+                <div class="calculator-form">
+                    <div class="input-group">
+                        <label for="annual-income">Annual Business Income ($)</label>
+                        <input type="number" id="annual-income" class="calc-input" placeholder="e.g. 120000">
+                    </div>
+                    <div class="input-group">
+                        <label for="business-type">Business Type</label>
+                        <select id="business-type" class="calc-input">
+                            <option value="sole-prop">Sole Proprietorship</option>
+                            <option value="llc">LLC</option>
+                            <option value="s-corp">S Corporation</option>
+                            <option value="c-corp">C Corporation</option>
+                            <option value="partnership">Partnership</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <label for="expenses">Estimated Annual Expenses ($)</label>
+                        <input type="number" id="expenses" class="calc-input" placeholder="e.g. 40000">
+                    </div>
+                    <div class="input-group">
+                        <label for="tax-credits">Eligible Tax Credits</label>
+                        <select id="tax-credits" class="calc-input" multiple>
+                            <option value="r-and-d">R&D Credit</option>
+                            <option value="home-office">Home Office Deduction</option>
+                            <option value="vehicle">Vehicle Expenses</option>
+                            <option value="retirement">Retirement Contributions</option>
+                            <option value="healthcare">Healthcare Tax Credit</option>
+                        </select>
+                        <p class="select-help">Hold Ctrl/Cmd to select multiple options</p>
+                    </div>
+                    <button id="calculate-btn" class="btn btn-primary">Calculate Savings</button>
+                </div>
+                <div class="calculator-results">
+                    <div class="results-header">
+                        <h3>Your Estimated Savings</h3>
+                        <p>Based on your inputs, here's how we can help</p>
+                    </div>
+                    <div class="results-content" id="results-content">
+                        <div class="result-box">
+                            <h4>Current Estimated Tax</h4>
+                            <p class="result-value" id="current-tax">$0</p>
+                        </div>
+                        <div class="result-box highlight-box">
+                            <h4>Potential Tax Savings</h4>
+                            <p class="result-value" id="tax-savings">$0</p>
+                            <div class="savings-percentage" id="savings-percentage">0%</div>
+                        </div>
+                        <div class="result-box">
+                            <h4>Optimized Tax Estimate</h4>
+                            <p class="result-value" id="optimized-tax">$0</p>
+                        </div>
+                    </div>
+                    <div class="results-disclaimer">
+                        <p>This calculator provides estimates based on general tax principles. For a personalized assessment, please contact us.</p>
+                    </div>
+                    <a href="#contact" class="btn btn-outline">Get Personalized Analysis</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get in <span class="highlight">Touch</span></h2>
+                <p>Reach out to us for a personalized financial consultation</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-details">
+                            <h4>Our Location</h4>
+                            <p>Augusta Amadi Street Lekki</p>
+                            <p>Lekki Penninsula II, Lagosi</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="info-details">
+                            <h4>Call Us</h4>
+                            <p> 0810 103 3321</p>
+                            <p>Mon-Fri, 9am-5pm EST</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-details">
+                            <h4>Email Us</h4>
+                            <p>info@IAOProfessionalServices.com</p>
+                            <p>support@IAOProfessionalService.com</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" class="form-input" placeholder=" " required>
+                            <label for="name" class="form-label">Your Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" class="form-input" placeholder=" " required>
+                            <label for="email" class="form-label">Your Email</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" class="form-input" placeholder=" ">
+                            <label for="phone" class="form-label">Your Phone (Optional)</label>
+                        </div>
+                        <div class="form-group">
+                            <select id="service" name="service" class="form-input" required>
+                                <option value="" disabled selected></option>
+                                <option value="financial-planning">Financial Planning</option>
+                                <option value="tax-optimization">Tax Optimization</option>
+                                <option value="business-accounting">Business Accounting</option>
+                                <option value="business-advisory">Business Advisory</option>
+                                <option value="audit-assurance">Audit & Assurance</option>
+                                <option value="cfo-services">CFO Services</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <label for="service" class="form-label">Service Interested In</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" class="form-input" placeholder=" " rows="4" required></textarea>
+                            <label for="message" class="form-label">Your Message</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-logo">
+                    <h2>IAO Professional Services</h2>
+                    <p>Your trusted financial partner since 2018</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#calculator">Tax Calculator</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#services">Financial Planning</a></li>
+                            <li><a href="#services">Tax Optimization</a></li>
+                            <li><a href="#services">Business Accounting</a></li>
+                            <li><a href="#services">Business Advisory</a></li>
+                            <li><a href="#services">Audit & Assurance</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Legal</h4>
+                        <ul>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Cookie Policy</a></li>
+                            <li><a href="#">Disclaimer</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 IAO Professional Services. All rights reserved.</p>
+                <p>Designed and built by  <a href="#">Mustapha Fathiu</a></p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="/main.js"></script>
+</body>
+</html>
