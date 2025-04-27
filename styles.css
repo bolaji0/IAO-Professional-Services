@@ -838,6 +838,7 @@ button {
 .contact {
   background-color: var(--background);
   position: relative;
+  overflow: hidden;
 }
 
 .contact-grid {
